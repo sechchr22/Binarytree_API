@@ -170,12 +170,12 @@ Output:
    ```
 #### DELETE
 - ##### /api/v1/binarytree/trees/<tree_id>
-  __Description:__ Delete a Binarytree object.
-  __Example:__
+  Description: Delete a Binarytree object.
+  Example:
   ```sh
   curl -X DELETE http://0.0.0.0:5000/api/binarytree/v1/trees/540ac292-1625-4774-92bd-c1a9a3fb0825
   ```
-  __Output:__
+  Output:
   If tree exists
   ```sh
   {"delete":"successful"}
