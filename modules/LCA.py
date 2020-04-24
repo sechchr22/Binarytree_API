@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-Module to find the last common ancester (LCA) 
+Module to find the lowest common ancester (LCA) 
 of 2 nodes in a Binarytree
 '''
 
