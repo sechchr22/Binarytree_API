@@ -136,14 +136,14 @@ Output:
    {"error":"tree id Not found"}
    ```
 - ##### /api/v1/binarytree/trees/<tree_id>/LCA/node1/node2
-  Description: Determine last common ancestor of two nodes from a given tree.
+  Description: Determine lowest common ancestor of two nodes from a given tree.
   Example:
   Having a tree
   ```sh
    {"__class__":"Binarytree","created_at":"2020-04-24T16:51:01.465281","id":"462de96e-205e-4b5c-82b2-6be984e42b74","tree_list":[1,0,8,null,13,11,12,null,null,3,14,6,null,10,4],"updated_at":"2020-04-24T16:51:01.465349"}
    ```
    
-   LastCommonAncestor(3, 12)
+   LowestCommonAncestor(3, 12)
    ```sh
    curl -X GET http://0.0.0.0:5000/api/binarytree/v1/trees/462de96e-205e-4b5c-82b2-6be984e42b74/LCA/3/12
    ```
@@ -190,7 +190,7 @@ Output:
 ### Folder: modules
 | File | Description |
 | ------ | ------ |
-| LCA.py | LastCommonAncestor Module |
+| LCA.py | LowestCommonAncestor Module |
 | print_binarytree.py | Print a binarytree from a given list |
 
 ### Folder: models
