@@ -66,6 +66,24 @@ Ubuntu 16.04 LTS
 - Flask : https://pypi.org/project/Flask/
 - Binarytree Python module: https://www.geeksforgeeks.org/binarytree-module-in-python/
 
+#### Create the user and database in PostgreSQL
+Login and Connect as Default User
+```sh
+$ sudo -u postgres psql
+```
+At the psql command prompt
+```sh
+CREATE USER sech;
+```
+Setup password
+```sh
+ALTER USER sech password 'gokuaddicte';
+```
+Create database
+```sh
+CREATE DATABASE binarytrees;
+```
+
 ## Installation
 
 After having the environment setted up, clone the repository.
