@@ -53,7 +53,7 @@ Binary tree from list :
 2   11     13
 ```
 
-## Enviroment
+## Environment
 
 You need the following enviroment to run this API.
 
